@@ -8,10 +8,10 @@ class SitemapsController extends Controller
 {
     public function index()
     {
-        Sitemap::addSitemap(route('site.home'));
-        Sitemap::addSitemap(route('site.team'));
-        Sitemap::addSitemap(route('site.faq'));
+        Sitemap::addTag(route('site.home'), null, 'monthly', '1.0');
+        Sitemap::addTag(route('site.team'), null, 'monthly', '1.0');
+        Sitemap::addTag(route('site.faq'), null, 'monthly', '1.0');
 
-        return Sitemap::renderSitemapIndex();
+        return Sitemap::render();
     }
 }
