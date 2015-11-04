@@ -26,4 +26,4 @@ Route::get('faq', [
     'uses' => 'HomeController@faq',
 ]);
 
-Route::get('sitemap', 'SitemapsController@index');
+Route::get('sitemap.xml', 'SitemapsController@index');
