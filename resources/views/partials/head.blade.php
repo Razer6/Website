@@ -25,7 +25,7 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/img/social/apple-touch-icon-152x152.png">
 
     <link href='//fonts.googleapis.com/css?family=Open+Sans:100,300,400,700,900' rel='stylesheet' type='text/css'>
-    <link href="{{ elixir('dist/css/app.css') }}" rel="stylesheet">
+    <link href="{{ elixir('css/app.css') }}" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/js/ie10-viewport-bug-workaround.js"></script>
