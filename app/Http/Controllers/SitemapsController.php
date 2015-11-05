@@ -10,7 +10,6 @@ class SitemapsController extends Controller
     {
         Sitemap::addTag(route('site.home'), null, 'monthly', '1.0');
         Sitemap::addTag(route('site.team'), null, 'monthly', '1.0');
-        Sitemap::addTag(route('site.faq'), null, 'monthly', '1.0');
 
         return Sitemap::render();
     }
