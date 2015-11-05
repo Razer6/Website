@@ -6,7 +6,7 @@
                     <h2>Newsletter</h2>
                     <form role='form' action="//cachethq.us9.list-manage.com/subscribe/post?u=654f358550ef074d6601475cd&amp;id=711cf8b66d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                         <label for="mce-EMAIL" class='sr-only'>Email Address  <span class="asterisk">*</span></label>
-                        <input type="email" value="" required name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="joe@cachet-rocks.io">
+                        <input type="email" value="" required name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="support@alt-three.com">
 
                         <button type="submit" class='submit' name="subscribe" id="mc-embedded-subscribe"></button>
 
