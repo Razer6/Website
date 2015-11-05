@@ -2,10 +2,12 @@
 
 namespace CachetHQ\Http\Controllers;
 
+use Illuminate\Support\Facades\Redirect;
+
 class HomeController extends Controller
 {
     /**
-     * Create a new controller instance.
+     * Create a new home controller instance.
      *
      * @return void
      */
@@ -17,7 +19,7 @@ class HomeController extends Controller
     /**
      * Show the website homepage to the user.
      *
-     * @return Response
+     * @return \Illuminate\View\View
      */
     public function index()
     {
@@ -27,7 +29,7 @@ class HomeController extends Controller
     /**
      * Show the team page to the user.
      *
-     * @return Response
+     * @return \Illuminate\View\View
      */
     public function team()
     {
@@ -37,10 +39,10 @@ class HomeController extends Controller
     /**
      * Show the faq page to the user.
      *
-     * @return Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function faq()
     {
-        return view('faq');
+        return Redirect::to('https://docs.cachethq.io/docs/frequently-asked-questions', 301);
     }
 }

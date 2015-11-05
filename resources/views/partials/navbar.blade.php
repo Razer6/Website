@@ -14,13 +14,10 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ route('site.home') }}">Home</a></li>
-                <li><a href="{{ route('site.faq') }}">FAQ</a></li>
+                <li><a href="https://docs.cachethq.io/docs/frequently-asked-questions" target="_blank">FAQ</a></li>
                 <li>
-                    <a href="https://blog.cachethq.io">
-                        Blog
-                        @if($recentArticles > 0)
-                        <span class="badge badge-info">{{ $recentArticles }}</span>
-                        @endif
+                    <a href="https://blog.alt-three.com">
+                        Blog @if($recentArticles > 0)<span class="badge badge-info">{{ $recentArticles }}</span>@endif
                     </a>
                 </li>
                 <li><a href="https://docs.cachethq.io">Documentation</a></li>
