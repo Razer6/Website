@@ -145,12 +145,12 @@ return [
         /*
          * Application Service Providers...
          */
-        'CachetHQ\Providers\AppServiceProvider',
-        'CachetHQ\Providers\BusServiceProvider',
-        'CachetHQ\Providers\ConfigServiceProvider',
-        'CachetHQ\Providers\EventServiceProvider',
-        'CachetHQ\Providers\RouteServiceProvider',
-        'CachetHQ\Providers\ViewComposerServiceProvider',
+        'CachetHQ\Website\Providers\AppServiceProvider',
+        'CachetHQ\Website\Providers\BusServiceProvider',
+        'CachetHQ\Website\Providers\ConfigServiceProvider',
+        'CachetHQ\Website\Providers\EventServiceProvider',
+        'CachetHQ\Website\Providers\RouteServiceProvider',
+        'CachetHQ\Website\Providers\ViewComposerServiceProvider',
 
     ],
 

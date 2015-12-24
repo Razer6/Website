@@ -1,6 +1,6 @@
 <?php
 
-namespace CachetHQ\Http\Controllers;
+namespace CachetHQ\Website\Http\Controllers;
 
 use Illuminate\Support\Facades\Redirect;
 

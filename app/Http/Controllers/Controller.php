@@ -1,6 +1,6 @@
 <?php
 
-namespace CachetHQ\Http\Controllers;
+namespace CachetHQ\Website\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesCommands;
 use Illuminate\Foundation\Validation\ValidatesRequests;

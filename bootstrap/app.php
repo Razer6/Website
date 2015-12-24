@@ -28,17 +28,17 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
     'Illuminate\Contracts\Http\Kernel',
-    'CachetHQ\Http\Kernel'
+    'CachetHQ\Website\Http\Kernel'
 );
 
 $app->singleton(
     'Illuminate\Contracts\Console\Kernel',
-    'CachetHQ\Console\Kernel'
+    'CachetHQ\Website\Console\Kernel'
 );
 
 $app->singleton(
     'Illuminate\Contracts\Debug\ExceptionHandler',
-    'CachetHQ\Exceptions\Handler'
+    'CachetHQ\Website\Exceptions\Handler'
 );
 
 /*

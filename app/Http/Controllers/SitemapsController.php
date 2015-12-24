@@ -1,6 +1,6 @@
 <?php
 
-namespace CachetHQ\Http\Controllers;
+namespace CachetHQ\Website\Http\Controllers;
 
 use Watson\Sitemap\Facades\Sitemap;
 

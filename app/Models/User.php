@@ -1,6 +1,6 @@
 <?php
 
-namespace CachetHQ;
+namespace CachetHQ\Website\Website;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Auth\Passwords\CanResetPassword;

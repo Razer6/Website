@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => 'CachetHQ\User',
+    'model' => 'CachetHQ\Website\Models\User',
 
     /*
     |--------------------------------------------------------------------------

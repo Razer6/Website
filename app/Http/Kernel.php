@@ -1,6 +1,6 @@
 <?php
 
-namespace CachetHQ\Http;
+namespace CachetHQ\Website\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -17,7 +17,7 @@ class Kernel extends HttpKernel
         'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
         'Illuminate\Session\Middleware\StartSession',
         'Illuminate\View\Middleware\ShareErrorsFromSession',
-        'CachetHQ\Http\Middleware\VerifyCsrfToken',
+        'CachetHQ\Website\Http\Middleware\VerifyCsrfToken',
     ];
 
     /**
@@ -26,8 +26,8 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth'       => 'CachetHQ\Http\Middleware\Authenticate',
+        'auth'       => 'CachetHQ\Website\Http\Middleware\Authenticate',
         'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
-        'guest'      => 'CachetHQ\Http\Middleware\RedirectIfAuthenticated',
+        'guest'      => 'CachetHQ\Website\Http\Middleware\RedirectIfAuthenticated',
     ];
 }

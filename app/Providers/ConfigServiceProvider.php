@@ -1,6 +1,6 @@
 <?php
 
-namespace CachetHQ\Providers;
+namespace CachetHQ\Website\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

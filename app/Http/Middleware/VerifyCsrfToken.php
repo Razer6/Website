@@ -1,6 +1,6 @@
 <?php
 
-namespace CachetHQ\Http\Middleware;
+namespace CachetHQ\Website\Http\Middleware;
 
 use Closure;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;

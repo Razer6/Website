@@ -1,6 +1,6 @@
 <?php
 
-namespace CachetHQ\Composers;
+namespace CachetHQ\Website\Composers;
 
 use Awjudd\FeedReader\Facades\FeedReader;
 use Carbon\Carbon;

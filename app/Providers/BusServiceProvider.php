@@ -1,6 +1,6 @@
 <?php
 
-namespace CachetHQ\Providers;
+namespace CachetHQ\Website\Providers;
 
 use Illuminate\Bus\Dispatcher;
 use Illuminate\Support\ServiceProvider;
@@ -18,7 +18,7 @@ class BusServiceProvider extends ServiceProvider
     {
         $dispatcher->mapUsing(function ($command) {
             return Dispatcher::simpleMapping(
-                $command, 'CachetHQ\Commands', 'CachetHQ\Handlers\Commands'
+                $command, 'CachetHQ\Website\Commands', 'CachetHQ\Website\Handlers\Commands'
             );
         });
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace CachetHQ\Providers;
+namespace CachetHQ\Website\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -19,6 +19,6 @@ class ViewComposerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->view->composer('*', 'CachetHQ\Composers\NavComposer');
+        $this->app->view->composer('*', 'CachetHQ\Website\Composers\NavComposer');
     }
 }
