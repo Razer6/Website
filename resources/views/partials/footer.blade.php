@@ -17,7 +17,7 @@
                     <h2>We're social people!</h2>
                     <div class="socials">
                         <a href="https://twitter.com/cachethq" target="_blank" title="Follow us on Twitter" class="twitter"><i class="icon ion-social-twitter"></i></a>
-                        <a href="https://github.com/cachethq" target="_blank" title="#" class="github"><i class="icon ion-social-github"></i></a>
+                        <a href="https://github.com/cachethq" target="_blank" title="Watch us on GitHub" class="github"><i class="icon ion-social-github"></i></a>
                         <a href="https://facebook.com/CachetHQ" target="_blank" title="Like us on Facebook" class="facebook"><i class="icon ion-social-facebook"></i></a>
                     </div>
                 </div>
