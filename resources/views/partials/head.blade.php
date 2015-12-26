@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Cachet is a free, open source status page for your API, service or company. Built with all of the features that you'd expect from a status page, Cachet comes with a powerful API, a metric system, multiple user support, two factor authentication for added security and is easy to get setup. A powerful, self-hosted alternative to StatusPage.io and Status.io">
-    <meta name="author" content="James Brooks">
+    <meta name="author" content="Alt Three Services Limited">
     <link rel="icon" href="/favicon.ico">
     <meta property='fb:app_id' content='760338654003020'/>
     <meta property="og:type" content="website" />
