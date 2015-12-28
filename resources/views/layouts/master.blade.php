@@ -18,9 +18,12 @@
             ga('create', 'UA-58442674-4', 'auto');
             ga('send', 'pageview');
         </script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
         <script src="/js/retina-1.1.0.js"></script>
         <script>
         (function () {
+            $('.dropdown-toggle').dropdown();
             document.getElementById('github', function (event) {
                 _gs('event', 'GitHub');
             });
