@@ -24,4 +24,9 @@ Route::get('faq', [
     'uses' => 'HomeController@faq',
 ]);
 
+Route::get('press', [
+    'as'   => 'site.press',
+    'uses' => 'HomeController@press',
+]);
+
 Route::get('sitemap.xml', 'SitemapsController@index');

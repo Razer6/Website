@@ -46,6 +46,16 @@ class HomeController extends Controller
     }
 
     /**
+     * Shows the press page.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function press()
+    {
+        return view('press');
+    }
+
+    /**
      * Show the faq page to the user.
      *
      * @return \Illuminate\Http\RedirectResponse

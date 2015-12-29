@@ -15,6 +15,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ route('site.home') }}">Home</a></li>
                 <li><a href="https://docs.cachethq.io/docs/frequently-asked-questions" target="_blank">FAQ</a></li>
+                <li><a href="{{ route('site.press') }}">Press</a></li>
                 @if(count($recentArticles) > 0)
                 <li role="presentation" class='dropdown'>
                     <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="javascript: void(0);">Blog <span class="badge badge-info">{{ count($recentArticles) }}</span><span class="caret"></span></a>
