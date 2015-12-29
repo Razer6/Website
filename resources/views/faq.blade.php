@@ -1,8 +1,6 @@
 @extends('layouts.master')
 
-@section('pageTitle')
-Frequently Asked Questions
-@stop
+@section('pageTitle', 'Frequently Asked Questions')
 
 @section('content')
 <section class="grey condensed further level">

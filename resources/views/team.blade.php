@@ -1,8 +1,6 @@
 @extends('layouts.master')
 
-@section('pageTitle')
-Meet the Team
-@stop
+@section('pageTitle', 'Meet the Team')
 
 @section('content')
 <section class="grey condensed further level">
