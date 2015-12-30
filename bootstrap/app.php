@@ -24,20 +24,11 @@ $app = new Illuminate\Foundation\Application(
 |
 */
 
-$app->singleton(
-    'Illuminate\Contracts\Http\Kernel',
-    'CachetHQ\Website\Http\Kernel'
-);
+$app->singleton('Illuminate\Contracts\Http\Kernel', 'CachetHQ\Website\Http\Kernel');
 
-$app->singleton(
-    'Illuminate\Contracts\Console\Kernel',
-    'CachetHQ\Website\Console\Kernel'
-);
+$app->singleton('Illuminate\Contracts\Console\Kernel', 'CachetHQ\Website\Console\Kernel');
 
-$app->singleton(
-    'Illuminate\Contracts\Debug\ExceptionHandler',
-    'CachetHQ\Website\Exceptions\Handler'
-);
+$app->singleton('Illuminate\Contracts\Debug\ExceptionHandler', 'GrahamCampbell\Exceptions\ExceptionHandler');
 
 /*
 |--------------------------------------------------------------------------

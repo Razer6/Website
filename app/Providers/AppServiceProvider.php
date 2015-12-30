@@ -11,6 +11,7 @@
 
 namespace CachetHQ\Website\Providers;
 
+use CachetHQ\Website\Composers\NavComposer;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -22,7 +23,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->app->view->composer('*', NavComposer::class);
     }
 
     /**
@@ -32,5 +33,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        //
     }
 }

@@ -22,7 +22,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG'),
+    'debug' => env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -87,7 +87,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'SomeRandomString'),
+    'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
 
@@ -119,9 +119,7 @@ return [
 
     'providers' => [
 
-        /*
-         * Laravel Framework Service Providers...
-         */
+        'GrahamCampbell\Exceptions\ExceptionsServiceProvider',
         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
         'Illuminate\Auth\AuthServiceProvider',
         'Illuminate\Bus\BusServiceProvider',
@@ -144,20 +142,10 @@ return [
         'Illuminate\Translation\TranslationServiceProvider',
         'Illuminate\Validation\ValidationServiceProvider',
         'Illuminate\View\ViewServiceProvider',
-
-        /*
-         * Third Party Service Providers...
-         */
         'Awjudd\FeedReader\FeedReaderServiceProvider',
         'Watson\Sitemap\SitemapServiceProvider',
-
-        /*
-         * Application Service Providers...
-         */
         'CachetHQ\Website\Providers\AppServiceProvider',
-        'CachetHQ\Website\Providers\EventServiceProvider',
         'CachetHQ\Website\Providers\RouteServiceProvider',
-        'CachetHQ\Website\Providers\ViewComposerServiceProvider',
 
     ],
 
@@ -184,12 +172,10 @@ return [
         'Cookie'    => 'Illuminate\Support\Facades\Cookie',
         'Crypt'     => 'Illuminate\Support\Facades\Crypt',
         'DB'        => 'Illuminate\Support\Facades\DB',
-        'Eloquent'  => 'Illuminate\Database\Eloquent\Model',
         'Event'     => 'Illuminate\Support\Facades\Event',
         'File'      => 'Illuminate\Support\Facades\File',
         'Hash'      => 'Illuminate\Support\Facades\Hash',
         'Input'     => 'Illuminate\Support\Facades\Input',
-        'Inspiring' => 'Illuminate\Foundation\Inspiring',
         'Lang'      => 'Illuminate\Support\Facades\Lang',
         'Log'       => 'Illuminate\Support\Facades\Log',
         'Mail'      => 'Illuminate\Support\Facades\Mail',
