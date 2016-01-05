@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7d4927238d869a7ebac2bea539878695",
-    "content-hash": "4b3816ea7ef2e28f5bbff63f8a8331d5",
+    "hash": "9d4291176d23ea5cb2da47b52ff8a70f",
+    "content-hash": "7ec5284e281aa95917816e0b54bda34a",
     "packages": [
         {
             "name": "awjudd/feed-reader",
@@ -257,16 +257,16 @@
         },
         {
             "name": "graham-campbell/exceptions",
-            "version": "v7.0.0",
+            "version": "v8.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Laravel-Exceptions.git",
-                "reference": "a823d44500c1dbe659e993ada1ee833a32d11e89"
+                "reference": "8e095c17df313e763645114506be58bc4e268cff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Exceptions/zipball/a823d44500c1dbe659e993ada1ee833a32d11e89",
-                "reference": "a823d44500c1dbe659e993ada1ee833a32d11e89",
+                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Exceptions/zipball/8e095c17df313e763645114506be58bc4e268cff",
+                "reference": "8e095c17df313e763645114506be58bc4e268cff",
                 "shasum": ""
             },
             "require": {
@@ -290,7 +290,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "7.0-dev"
+                    "dev-master": "8.0-dev"
                 }
             },
             "autoload": {
@@ -322,7 +322,7 @@
                 "laravel",
                 "whoops"
             ],
-            "time": "2015-12-11 11:28:48"
+            "time": "2016-01-05 15:10:24"
         },
         {
             "name": "jakub-onderka/php-console-color",
