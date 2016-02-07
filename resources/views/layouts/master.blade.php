@@ -20,7 +20,6 @@
         </script>
         <script src="/js/jquery.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/retina-1.1.0.js"></script>
         <script>
         (function () {
             $('.dropdown-toggle').dropdown();
