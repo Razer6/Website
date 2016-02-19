@@ -29,7 +29,7 @@
     <div class="copyright">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-right">&copy; 2015 <a href="https://alt-three.com">Alt Three Services Limited</a>, registered no. 9671573</a></div>
+                <div class="col-lg-12 text-right">&copy; 2016 <a href="https://alt-three.com">Alt Three Services Limited</a>, registered no. 9671573</a></div>
             </div>
         </div>
     </div>
